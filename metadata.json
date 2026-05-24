@@ -1,0 +1,6 @@
+{
+  "name": "DevTech AI Consultancy",
+  "description": "DevTech — Consultora de IA y desarrollo ágil. Implementamos tecnología, diseñamos el aprendizaje y acompañamos el cambio organizacional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
