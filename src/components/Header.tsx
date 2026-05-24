@@ -28,13 +28,16 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 bg-primary-500 rounded-sm flex items-center justify-center text-black font-black text-xl group-hover:bg-primary-600 transition-colors">
-            D
+        <a href="#" className="flex items-center gap-3 group">
+          <div className="flex items-center gap-0.5 text-primary-500 font-mono text-[42px] font-bold group-hover:text-primary-400 transition-colors leading-none">
+            <span>[</span>
+            <div className="w-2 h-2 bg-white rounded-full"></div>
+            <span>]</span>
           </div>
-          <span className="text-2xl font-black tracking-tighter text-white">
-            DEVTECH<span className="text-primary-500">.</span>
-          </span>
+          <div className="flex flex-col leading-none gap-0">
+            <span className="text-white font-syne font-extrabold text-[28px] tracking-[2px] leading-none">DEV</span>
+            <span className="text-white/40 font-light text-[12px] tracking-[5px] uppercase leading-none">TECH</span>
+          </div>
         </a>
 
         {/* Desktop Nav */}
