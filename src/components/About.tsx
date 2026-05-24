@@ -17,7 +17,7 @@ export default function About() {
             </h2>
             <div className="space-y-6 text-lg text-white/60 leading-relaxed">
               <p>
-                Durante 8 años fundamos y dirigimos PlayCode, una plataforma donde más de 200 chicos y chicas aprendieron a programar. Ganamos convocatorias, tuvimos espacio físico, nos reinventamos en pandemia y volvimos a la presencialidad.
+                Durante 8 años fundamos y dirigimos Play Code, una plataforma donde más de 200 chicos y chicas aprendieron a programar. Ganamos convocatorias, tuvimos espacio físico, nos reinventamos en pandemia y volvimos a la presencialidad.
               </p>
               <p>
                 En ese camino aprendimos algo que pocos consultores tech pueden decir: entendemos cómo las personas <strong className="text-white font-medium">aprenden, resisten y finalmente adoptan la tecnología.</strong>
@@ -81,7 +81,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start gap-4">
                   <Lightbulb className="w-4 h-4 text-white/30 shrink-0" />
-                  <span>Especialista en acompañamiento al cambio organizacional</span>
+                  <span>Diplomado en Gestión Educativa con mención en Inteligencia Artificial y Análisis de Datos (en curso)</span>
                 </li>
               </ul>
             </motion.div>

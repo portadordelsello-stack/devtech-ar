@@ -51,12 +51,20 @@ export default function Header() {
               {link.name}
             </a>
           ))}
-          <a 
-            href="#contacto"
-            className="text-[11px] uppercase tracking-widest font-bold bg-white text-black px-6 py-3 hover:bg-primary-500 transition-colors"
-          >
-            Contacto
-          </a>
+          <div className="flex items-center gap-4">
+            <a 
+              href="#campus"
+              className="text-[11px] uppercase tracking-widest font-bold bg-white text-black px-6 py-3 hover:bg-primary-500 transition-colors"
+            >
+              Campus
+            </a>
+            <a 
+              href="#contacto"
+              className="text-[11px] uppercase tracking-widest font-bold border border-white/20 text-white px-6 py-3 hover:bg-white/10 transition-colors"
+            >
+              Contacto
+            </a>
+          </div>
         </nav>
 
         {/* Mobile Menu Toggle */}
@@ -81,13 +89,22 @@ export default function Header() {
               {link.name}
             </a>
           ))}
-          <a 
-            href="#contacto"
-            onClick={() => setIsMobileMenuOpen(false)}
-            className="text-center text-xs uppercase tracking-widest font-bold bg-white text-black px-5 py-4 mt-4 hover:bg-primary-500 transition-colors"
-          >
-            Contacto
-          </a>
+          <div className="flex flex-col gap-3 mt-4">
+            <a 
+              href="#campus"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-center text-xs uppercase tracking-widest font-bold bg-white text-black px-5 py-4 hover:bg-primary-500 transition-colors"
+            >
+              Campus
+            </a>
+            <a 
+              href="#contacto"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-center text-xs uppercase tracking-widest font-bold border border-white/20 text-white px-5 py-4 hover:bg-white/10 transition-colors"
+            >
+              Contacto
+            </a>
+          </div>
         </div>
       )}
     </header>
